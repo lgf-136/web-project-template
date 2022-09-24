@@ -1,0 +1,28 @@
+{
+  "name": "template",
+  "pluginName": "template",
+  "description": "template",
+  "author": "LGF",
+  "homepage": "./",
+  "version": "1.0.0",
+  "main": "index.html",
+  "logo": "logo.png",
+  "platform": [
+    "win32",
+    "darwin",
+    "linux"
+  ],
+  "preload": "preload.js",
+  "development": {
+    "main1": "http://127.0.0.1:3000"
+  },
+  "features": [
+    {
+      "code": "template",
+      "explain": "template",
+      "cmds": [
+        "template"
+      ]
+    }
+  ]
+}

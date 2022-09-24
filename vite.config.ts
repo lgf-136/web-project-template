@@ -46,7 +46,7 @@ const utoolsPlugin = utools({
   },
   buildUpx: {
     pluginPath: './utools/plugin.json',
-    outDir: './utools/upx',
+    outDir: './dist/upx',
     outName: '[pluginName]_[version].upx',
   },
 });
