@@ -1,5 +1,6 @@
 {
   "recommendations": [
+    "naumovs.color-highlight",
     "vue.volar",
     "vue.vscode-typescript-vue-plugin",
     "dariofuzinato.vue-peek",
