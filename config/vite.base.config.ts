@@ -1,6 +1,6 @@
 /* eslint-disable @typescript-eslint/no-var-requires */
 const { defineConfig } = require('vite');
-const react = require('@vitejs/plugin-react');
+const vue = require('@vitejs/plugin-vue');
 const path = require('path');
 
 /*
@@ -25,7 +25,7 @@ module.exports = defineConfig({
     },
   },
   plugins: [
-    react(),
+    vue(),
     ViteEjsPlugin({
       domain: 'example.com',
       title: 'index',

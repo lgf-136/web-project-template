@@ -1,6 +1,6 @@
 
 module.exports = {
-  extends: [ './config/eslint/react-ts.config' ],
+  extends: [ './config/eslint/vue-ts.config' ],
   rules: {
     complexity: [ 'error', { max: 20 } ],
     'no-multiple-empty-lines': [
