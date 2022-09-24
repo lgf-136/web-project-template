@@ -1,10 +1,17 @@
 {
   "recommendations": [
     "vue.volar",
+    "vue.vscode-typescript-vue-plugin",
+    "dariofuzinato.vue-peek",
+    "sdras.vue-vscode-snippets",
+    "xabikos.reactsnippets",
     "vscode-icons-team.vscode-icons",
     "dbaeumer.vscode-eslint",
     "stylelint.vscode-stylelint",
     "editorconfig.editorconfig",
-    "eamodio.gitlens"
+    "eamodio.gitlens",
+    "mhutchie.git-graph",
+    "ritwickdey.liveserver",
+    "formulahendry.auto-rename-tag",
   ]
 }
