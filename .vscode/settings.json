@@ -27,7 +27,7 @@
     "editor.defaultFormatter": "dbaeumer.vscode-eslint"
   },
   "[javascript]": {
-    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+    "editor.defaultFormatter": "vscode.typescript-language-features"
   },
   "[javascriptreact]": {
     "editor.defaultFormatter": "dbaeumer.vscode-eslint"
@@ -51,6 +51,9 @@
     "sass",
     "vue"
   ],
+  "[markdown]": {
+    "editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
+  },
   // "[less]": {
   //   "editor.defaultFormatter": "stylelint.vscode-stylelint"
   // },

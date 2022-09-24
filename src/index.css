@@ -5,3 +5,7 @@
   margin: auto;
   border-radius: 5px;
 }
+
+label {
+  user-select: none;
+}

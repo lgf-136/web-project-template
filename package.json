@@ -3,6 +3,12 @@
   "version": "0.0.0",
   "description": "",
   "main": "index.js",
+  "keywords": [
+    "web",
+    "template"
+  ],
+  "author": "lgf",
+  "license": "ISC",
   "scripts": {
     "commit": "git-cz",
     "cz": "git-cz",
@@ -12,22 +18,19 @@
     "stylelint:fix": "stylelint src/**/*.{vue,css,less,scss} --fix",
     "lint": "npm run eslint && npm run stylelint",
     "lint:fix": "npm run eslint:fix && npm run stylelint:fix",
+    "postcss": "npx postcss src/index.css --dir dist/ ",
+    "postcss:scss": "npx postcss src/index.scss --dir dist/ ",
     "release": "standard-version",
     "test": "echo \"Error: no test specified\" && exit 1",
     "prepare": "husky install"
   },
-  "keywords": [
-    "vue3",
-    "typescript"
-  ],
-  "author": "lgf",
-  "license": "ISC",
   "devDependencies": {
     "@commitlint/cli": "^17.1.2",
     "@commitlint/config-conventional": "^17.1.0",
     "@types/node": "^18.7.18",
     "@typescript-eslint/eslint-plugin": "^5.38.0",
     "@typescript-eslint/parser": "^5.38.0",
+    "autoprefixer": "^10.4.12",
     "commitlint": "^17.1.2",
     "eslint": "^8.23.1",
     "eslint-plugin-jsx-a11y": "^6.6.1",
@@ -37,8 +40,12 @@
     "git-cz": "^4.9.0",
     "husky": "^8.0.1",
     "lint-staged": "^13.0.3",
+    "postcss": "^8.4.16",
+    "postcss-cli": "^10.0.0",
     "postcss-html": "^1.5.0",
     "postcss-less": "^6.0.0",
+    "postcss-preset-env": "^7.8.2",
+    "postcss-pxtorem": "^6.0.0",
     "postcss-scss": "^4.0.5",
     "standard-version": "^9.5.0",
     "stylelint": "^14.12.1",
