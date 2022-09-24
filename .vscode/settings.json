@@ -54,6 +54,9 @@
   "[markdown]": {
     "editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
   },
+  "cSpell.words": [
+    "utools"
+  ],
   // "[less]": {
   //   "editor.defaultFormatter": "stylelint.vscode-stylelint"
   // },

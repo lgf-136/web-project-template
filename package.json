@@ -1,14 +1,14 @@
 {
   "name": "web-project-template",
+  "author": "lgf",
+  "license": "ISC",
   "version": "0.0.0",
-  "description": "",
+  "description": "web-project-template",
   "main": "index.js",
   "keywords": [
     "web",
     "template"
   ],
-  "author": "lgf",
-  "license": "ISC",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
@@ -30,6 +30,7 @@
   "devDependencies": {
     "@commitlint/cli": "^17.1.2",
     "@commitlint/config-conventional": "^17.1.0",
+    "@faker-js/faker": "^7.5.0",
     "@types/node": "^18.7.18",
     "@types/react": "^18.0.21",
     "@types/react-dom": "^18.0.6",
@@ -37,6 +38,7 @@
     "@typescript-eslint/parser": "^5.38.0",
     "@vitejs/plugin-react": "^2.1.0",
     "autoprefixer": "^10.4.12",
+    "browserslist": "^4.21.4",
     "commitlint": "^17.1.2",
     "eslint": "^8.23.1",
     "eslint-plugin-jsx-a11y": "^6.6.1",
@@ -45,7 +47,9 @@
     "eslint-plugin-vue": "^9.5.1",
     "git-cz": "^4.9.0",
     "husky": "^8.0.1",
+    "json-server": "^0.17.0",
     "lint-staged": "^13.0.3",
+    "mockjs": "^1.1.0",
     "postcss": "^8.4.16",
     "postcss-cli": "^10.0.0",
     "postcss-html": "^1.5.0",
@@ -60,7 +64,11 @@
     "stylelint-config-standard-scss": "^5.0.0",
     "tslint": "^6.1.3",
     "typescript": "^4.8.3",
+    "utools-api-types": "^3.0.0",
     "vite": "^3.1.3",
+    "vite-plugin-ejs": "^1.5.0",
+    "vite-plugin-mock": "^2.9.6",
+    "vite-plugin-utools": "^0.1.1-beta.1",
     "vue-eslint-parser": "^9.1.0"
   },
   "dependencies": {
