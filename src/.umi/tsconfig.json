@@ -9,6 +9,7 @@
     "sourceMap": true,
     "baseUrl": "../../",
     "strict": true,
+    "forceConsistentCasingInFileNames": true,
     "resolveJsonModule": true,
     "allowSyntheticDefaultImports": true,
     "paths": {
@@ -19,7 +20,7 @@
         "src/.umi/*"
       ],
       "umi": [
-        "C:\\Users\\13662\\Desktop\\web-project-template\\node_modules\\umi"
+        "../../node_modules/umi"
       ],
       "umi/typings": [
         "src/.umi/typings"
