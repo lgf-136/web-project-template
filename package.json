@@ -10,6 +10,11 @@
   "author": "lgf",
   "license": "ISC",
   "scripts": {
+    "dev": "umi dev",
+    "build": "umi build",
+    "postinstall": "umi setup",
+    "setup": "umi setup",
+    "start": "npm run dev",
     "commit": "git-cz",
     "cz": "git-cz",
     "eslint": "eslint --ext .js,.jsx,.ts,.tsx,.vue test/ src/",
@@ -28,6 +33,8 @@
     "@commitlint/cli": "^17.1.2",
     "@commitlint/config-conventional": "^17.1.0",
     "@types/node": "^18.7.18",
+    "@types/react": "^18.0.21",
+    "@types/react-dom": "^18.0.6",
     "@typescript-eslint/eslint-plugin": "^5.38.0",
     "@typescript-eslint/parser": "^5.38.0",
     "autoprefixer": "^10.4.12",
@@ -58,6 +65,7 @@
   },
   "dependencies": {
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "umi": "^4.0.22"
   }
 }
