@@ -10,6 +10,10 @@
   "author": "lgf",
   "license": "ISC",
   "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "eject": "react-scripts eject",
     "commit": "git-cz",
     "cz": "git-cz",
     "eslint": "eslint --ext .js,.jsx,.ts,.tsx,.vue test/ src/",
@@ -21,18 +25,18 @@
     "postcss": "npx postcss src/index.css --dir dist/ ",
     "postcss:scss": "npx postcss src/index.scss --dir dist/ ",
     "release": "standard-version",
-    "test": "echo \"Error: no test specified\" && exit 1",
     "prepare": "husky install"
   },
   "devDependencies": {
     "@commitlint/cli": "^17.1.2",
     "@commitlint/config-conventional": "^17.1.0",
-    "@types/node": "^18.7.18",
+    "@types/node": "^18.7.19",
     "@typescript-eslint/eslint-plugin": "^5.38.0",
     "@typescript-eslint/parser": "^5.38.0",
     "autoprefixer": "^10.4.12",
     "commitlint": "^17.1.2",
-    "eslint": "^8.23.1",
+    "eslint": "^8.24.0",
+    "eslint-config-react-app": "^7.0.1",
     "eslint-plugin-jsx-a11y": "^6.6.1",
     "eslint-plugin-react": "^7.31.8",
     "eslint-plugin-react-hooks": "^4.6.0",
@@ -57,7 +61,32 @@
     "vue-eslint-parser": "^9.1.0"
   },
   "dependencies": {
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^14.4.3",
+    "@types/jest": "^29.0.3",
+    "@types/react": "^18.0.21",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-scripts": "^5.0.1",
+    "web-vitals": "^3.0.2"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
