@@ -2,7 +2,7 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
-### 0.0.1 (2022-09-25)
+### 0.0.2 (2022-09-25)
 
 
 ### Features
@@ -20,22 +20,19 @@ All notable changes to this project will be documented in this file. See [standa
 * 🐛 change file format ([d44e0b4](https://github.com/lgf-136/web-project-template/commit/d44e0b417246c568c13cb167c4965d3a8cb36a17))
 * 🐛 vite logo 不能正常显示 ([89a0bad](https://github.com/lgf-136/web-project-template/commit/89a0bad99d3f5d4655bd7a4516049d183048e9f2)), closes [#2](https://github.com/lgf-136/web-project-template/issues/2)
 
-## [1.2.0](///compare/v1.1.0...v1.2.0) (2022-09-23)
-
+## 0.0.1 (2022-09-23)
 
 ### Features
 
 * 🎸 add .versionrc 6ab538e
 * 🎸 add changelog.config afea7f6
 
-## 1.1.0 (2022-09-23)
-
+## 0.0.0 (2022-09-23)
 
 ### Features
 
 * 🎸 add commitlint 1099fdd
 * 🎸 add git-cz 9ec1502
-
 
 ### Bug Fixes
 
