@@ -12,5 +12,9 @@ module.exports = {
       },
     ],
   },
+  settings: {},
+  plugins: [],
+  overrides: [],
+  ignorePatterns: [ 'src/**/*.d.ts' ],
 };
 
