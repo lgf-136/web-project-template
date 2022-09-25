@@ -2,8 +2,8 @@
 . "$(dirname -- "$0")/_/husky.sh"
 
 # npm test
-# npx --no-install commitlint --edit "$1"
-npx commitlint --edit "${1}"
+npx --no-install commitlint --edit "$1"
+# npx commitlint --edit "${1}"
 
 # npx husky add .husky/commit-msg "npx --no-install commitlint -e $HUSKY_GIT_PARAMS"
 
