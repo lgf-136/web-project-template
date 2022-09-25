@@ -1,6 +1,6 @@
 
 module.exports = {
-  extends: [ './config/eslint/react-ts.config' ],
+  extends: [ './config/eslint/typescript.config' ],
   rules: {
     complexity: [ 'error', { max: 20 } ],
     'no-multiple-empty-lines': [
@@ -12,5 +12,9 @@ module.exports = {
       },
     ],
   },
+  settings: {},
+  plugins: [],
+  overrides: [],
+  ignorePatterns: [ 'src/**/*.d.ts' ],
 };
 
