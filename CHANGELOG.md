@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.3](https://github.com/lgf-136/web-project-template/compare/v0.0.2...v0.0.3) (2022-09-25)
+
+
+### Bug Fixes
+
+* 🐛 change git-hooks ([61b8cdb](https://github.com/lgf-136/web-project-template/commit/61b8cdb092fa543e1af8c3fdff30b0443248985d))
+
 ### 0.0.2 (2022-09-25)
 
 
