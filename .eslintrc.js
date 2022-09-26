@@ -2,6 +2,7 @@
 module.exports = {
   extends: [ './config/eslint/typescript.config' ],
   rules: {
+    '@typescript-eslint/no-var-requires': [ 0 ],
     complexity: [ 'error', { max: 20 } ],
     'no-multiple-empty-lines': [
       'error',
